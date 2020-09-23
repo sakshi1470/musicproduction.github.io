@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>shutter music</title>
+    <link rel="stylesheet" type="text/css" href="./style.css">
+    
+
+    <script src="https://kit.fontawesome.com/c8e4d183c2.js"
+    crossorigin="anonymous"></script>
+</head>
+<body>
+    <!--Start-Header-->
+
+    <header>
+        <div class="container">
+            <div class="row">
+                <div class="brand-name">
+                    <a href="" class="logo">SHUTTER MUSIC</a>
+                </div>
+                <div class="ham-burger">
+                    <i class="fa fa-bars"></i>
+                </div>
+                <div class="navbar">
+                    <ul>
+                        <li><a href="index.html" class="active">Home</a></li>
+                        <li><a href="aboutus.html">About</a></li>
+                        <li><a href="contact us.html">contact us</a></li>
+                        <li><a href="Ask us.html">Ask us</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!--End-Header-->
+
+   
+
+    <!--End Home Section-->
+
+    
+     <section id="portfolio">
+        <!--heading------>
+    
+        <!--portfolio-box-container------>
+        <div class="p-b-container">
+            <!--box-1------>
+            <div class="p-box">
+                <!--text-->
+                <div class="text-overlay">
+                    <h1><a href="cinematography.html">cinematography</a></h1>
+                </div>
+                <!--img----->
+                <img src="InShot_20200601_003152756.jpg" alt="cinematography">
+            </div>
+
+               <!--box-2------>
+               <div class="p-box">
+                   <!--text-->
+                   <div class="text-overlay">
+                    <h1><a href="music production.html">music production</a></h1>
+                   </div>
+                   <!--img----->
+                   <img src="InShot_20200601_004633839.jpg" alt="music production">
+               </div>
+        </div>
+    </section>
+
+    <section id="contact-btn">
+        <!--heading----->
+        <h1>CONTACT</h1>
+        <p>GET IN TOUCH</p>
+        <a href="contact us.html">Contact</a>
+    </section>
+
+    <!--jquery------>
+    <script type="text/javascript" src="./js/JQuery.js"></script>
+    <!--For change bar icon to "x"---->
+    <script type="text/javascript">
+     $(document).ready(function(){
+        $('.toggle').click(function(){
+            $('.toggle').toggleClass('active')
+            $('nav ul').toggleClass('active-menu')
+        })
+     })
+   </script>
+    <!--END ABOUT SECTION-->
+</body>
+</html>
